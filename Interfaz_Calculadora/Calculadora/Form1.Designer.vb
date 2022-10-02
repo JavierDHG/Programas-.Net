@@ -22,303 +22,321 @@ Partial Class frmPrincipal
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnuno = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
+        Me.btn1 = New System.Windows.Forms.Button()
+        Me.btn2 = New System.Windows.Forms.Button()
+        Me.btn3 = New System.Windows.Forms.Button()
+        Me.btn9 = New System.Windows.Forms.Button()
+        Me.btn4 = New System.Windows.Forms.Button()
+        Me.btn5 = New System.Windows.Forms.Button()
+        Me.btn6 = New System.Windows.Forms.Button()
+        Me.btn7 = New System.Windows.Forms.Button()
+        Me.btn8 = New System.Windows.Forms.Button()
+        Me.btnDividir = New System.Windows.Forms.Button()
+        Me.btnSuma = New System.Windows.Forms.Button()
+        Me.btnRestar = New System.Windows.Forms.Button()
+        Me.btnMultiplicar = New System.Windows.Forms.Button()
+        Me.btnTotal = New System.Windows.Forms.Button()
+        Me.btnPunto = New System.Windows.Forms.Button()
+        Me.txtbDisplay = New System.Windows.Forms.TextBox()
+        Me.btn0 = New System.Windows.Forms.Button()
+        Me.btnBorrar = New System.Windows.Forms.Button()
+        Me.btnRaiz = New System.Windows.Forms.Button()
+        Me.btnCuadrado = New System.Windows.Forms.Button()
+        Me.lblAux = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'btnuno
+        'btn1
         '
-        Me.btnuno.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnuno.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.btnuno.Location = New System.Drawing.Point(11, 310)
-        Me.btnuno.Name = "btnuno"
-        Me.btnuno.Size = New System.Drawing.Size(69, 59)
-        Me.btnuno.TabIndex = 0
-        Me.btnuno.Text = "1"
-        Me.btnuno.UseVisualStyleBackColor = True
+        Me.btn1.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btn1.Location = New System.Drawing.Point(14, 340)
+        Me.btn1.Name = "btn1"
+        Me.btn1.Size = New System.Drawing.Size(69, 59)
+        Me.btn1.TabIndex = 0
+        Me.btn1.Text = "1"
+        Me.btn1.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btn2
         '
-        Me.Button2.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button2.Location = New System.Drawing.Point(86, 310)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(69, 59)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btn2.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn2.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btn2.Location = New System.Drawing.Point(89, 340)
+        Me.btn2.Name = "btn2"
+        Me.btn2.Size = New System.Drawing.Size(69, 59)
+        Me.btn2.TabIndex = 1
+        Me.btn2.Text = "2"
+        Me.btn2.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btn3
         '
-        Me.Button3.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button3.Location = New System.Drawing.Point(161, 310)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(69, 59)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btn3.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn3.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btn3.Location = New System.Drawing.Point(164, 340)
+        Me.btn3.Name = "btn3"
+        Me.btn3.Size = New System.Drawing.Size(69, 59)
+        Me.btn3.TabIndex = 2
+        Me.btn3.Text = "3"
+        Me.btn3.UseVisualStyleBackColor = True
         '
-        'Button9
+        'btn9
         '
-        Me.Button9.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button9.Location = New System.Drawing.Point(161, 160)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(69, 59)
-        Me.Button9.TabIndex = 5
-        Me.Button9.Text = "9"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.btn9.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn9.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btn9.Location = New System.Drawing.Point(164, 190)
+        Me.btn9.Name = "btn9"
+        Me.btn9.Size = New System.Drawing.Size(69, 59)
+        Me.btn9.TabIndex = 5
+        Me.btn9.Text = "9"
+        Me.btn9.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btn4
         '
-        Me.Button4.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button4.Location = New System.Drawing.Point(11, 236)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(69, 59)
-        Me.Button4.TabIndex = 4
-        Me.Button4.Text = "4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btn4.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn4.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btn4.Location = New System.Drawing.Point(14, 266)
+        Me.btn4.Name = "btn4"
+        Me.btn4.Size = New System.Drawing.Size(69, 59)
+        Me.btn4.TabIndex = 4
+        Me.btn4.Text = "4"
+        Me.btn4.UseVisualStyleBackColor = True
         '
-        'Button5
+        'btn5
         '
-        Me.Button5.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button5.Location = New System.Drawing.Point(86, 236)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(69, 59)
-        Me.Button5.TabIndex = 3
-        Me.Button5.Text = "5"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btn5.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn5.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btn5.Location = New System.Drawing.Point(89, 266)
+        Me.btn5.Name = "btn5"
+        Me.btn5.Size = New System.Drawing.Size(69, 59)
+        Me.btn5.TabIndex = 3
+        Me.btn5.Text = "5"
+        Me.btn5.UseVisualStyleBackColor = True
         '
-        'Button6
+        'btn6
         '
-        Me.Button6.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button6.Location = New System.Drawing.Point(161, 236)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(69, 59)
-        Me.Button6.TabIndex = 8
-        Me.Button6.Text = "6"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.btn6.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn6.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btn6.Location = New System.Drawing.Point(164, 266)
+        Me.btn6.Name = "btn6"
+        Me.btn6.Size = New System.Drawing.Size(69, 59)
+        Me.btn6.TabIndex = 8
+        Me.btn6.Text = "6"
+        Me.btn6.UseVisualStyleBackColor = True
         '
-        'Button7
+        'btn7
         '
-        Me.Button7.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button7.Location = New System.Drawing.Point(11, 160)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(69, 59)
-        Me.Button7.TabIndex = 7
-        Me.Button7.Text = "7"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.btn7.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn7.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btn7.Location = New System.Drawing.Point(14, 190)
+        Me.btn7.Name = "btn7"
+        Me.btn7.Size = New System.Drawing.Size(69, 59)
+        Me.btn7.TabIndex = 7
+        Me.btn7.Text = "7"
+        Me.btn7.UseVisualStyleBackColor = True
         '
-        'Button8
+        'btn8
         '
-        Me.Button8.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button8.Location = New System.Drawing.Point(86, 160)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(69, 59)
-        Me.Button8.TabIndex = 6
-        Me.Button8.Text = "8"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.btn8.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn8.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btn8.Location = New System.Drawing.Point(89, 190)
+        Me.btn8.Name = "btn8"
+        Me.btn8.Size = New System.Drawing.Size(69, 59)
+        Me.btn8.TabIndex = 6
+        Me.btn8.Text = "8"
+        Me.btn8.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnDividir
         '
-        Me.Button1.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button1.Location = New System.Drawing.Point(236, 85)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(69, 59)
-        Me.Button1.TabIndex = 14
-        Me.Button1.Text = "/"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnDividir.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDividir.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnDividir.Location = New System.Drawing.Point(239, 115)
+        Me.btnDividir.Name = "btnDividir"
+        Me.btnDividir.Size = New System.Drawing.Size(69, 59)
+        Me.btnDividir.TabIndex = 14
+        Me.btnDividir.Text = "/"
+        Me.btnDividir.UseVisualStyleBackColor = True
         '
-        'Button10
+        'btnSuma
         '
-        Me.Button10.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button10.Location = New System.Drawing.Point(236, 310)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(69, 59)
-        Me.Button10.TabIndex = 13
-        Me.Button10.Text = "+"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.btnSuma.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSuma.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnSuma.Location = New System.Drawing.Point(239, 340)
+        Me.btnSuma.Name = "btnSuma"
+        Me.btnSuma.Size = New System.Drawing.Size(69, 59)
+        Me.btnSuma.TabIndex = 13
+        Me.btnSuma.Text = "+"
+        Me.btnSuma.UseVisualStyleBackColor = True
         '
-        'Button11
+        'btnRestar
         '
-        Me.Button11.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button11.Location = New System.Drawing.Point(236, 236)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(69, 59)
-        Me.Button11.TabIndex = 12
-        Me.Button11.Text = "-"
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.btnRestar.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRestar.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnRestar.Location = New System.Drawing.Point(239, 266)
+        Me.btnRestar.Name = "btnRestar"
+        Me.btnRestar.Size = New System.Drawing.Size(69, 59)
+        Me.btnRestar.TabIndex = 12
+        Me.btnRestar.Text = "-"
+        Me.btnRestar.UseVisualStyleBackColor = True
         '
-        'Button12
+        'btnMultiplicar
         '
-        Me.Button12.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button12.Location = New System.Drawing.Point(236, 160)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(69, 59)
-        Me.Button12.TabIndex = 11
-        Me.Button12.Text = "x"
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.btnMultiplicar.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMultiplicar.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnMultiplicar.Location = New System.Drawing.Point(239, 190)
+        Me.btnMultiplicar.Name = "btnMultiplicar"
+        Me.btnMultiplicar.Size = New System.Drawing.Size(69, 59)
+        Me.btnMultiplicar.TabIndex = 11
+        Me.btnMultiplicar.Text = "*"
+        Me.btnMultiplicar.UseVisualStyleBackColor = True
         '
-        'Button13
+        'btnTotal
         '
-        Me.Button13.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button13.Location = New System.Drawing.Point(161, 384)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(144, 59)
-        Me.Button13.TabIndex = 10
-        Me.Button13.Text = "="
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.btnTotal.BackColor = System.Drawing.Color.YellowGreen
+        Me.btnTotal.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTotal.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnTotal.Location = New System.Drawing.Point(164, 414)
+        Me.btnTotal.Name = "btnTotal"
+        Me.btnTotal.Size = New System.Drawing.Size(144, 59)
+        Me.btnTotal.TabIndex = 10
+        Me.btnTotal.Text = "="
+        Me.btnTotal.UseVisualStyleBackColor = False
         '
-        'Button14
+        'btnPunto
         '
-        Me.Button14.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button14.Location = New System.Drawing.Point(86, 384)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(69, 59)
-        Me.Button14.TabIndex = 9
-        Me.Button14.Text = "."
-        Me.Button14.UseVisualStyleBackColor = True
+        Me.btnPunto.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPunto.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnPunto.Location = New System.Drawing.Point(89, 414)
+        Me.btnPunto.Name = "btnPunto"
+        Me.btnPunto.Size = New System.Drawing.Size(69, 59)
+        Me.btnPunto.TabIndex = 9
+        Me.btnPunto.Text = "."
+        Me.btnPunto.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txtbDisplay
         '
-        Me.TextBox1.Enabled = False
-        Me.TextBox1.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.TextBox1.Location = New System.Drawing.Point(10, 14)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(295, 55)
-        Me.TextBox1.TabIndex = 15
-        Me.TextBox1.Text = "0"
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.txtbDisplay.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.txtbDisplay.Enabled = False
+        Me.txtbDisplay.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbDisplay.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.txtbDisplay.Location = New System.Drawing.Point(14, 54)
+        Me.txtbDisplay.MaxLength = 10
+        Me.txtbDisplay.Name = "txtbDisplay"
+        Me.txtbDisplay.Size = New System.Drawing.Size(294, 55)
+        Me.txtbDisplay.TabIndex = 15
+        Me.txtbDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'Button15
+        'btn0
         '
-        Me.Button15.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button15.Location = New System.Drawing.Point(11, 384)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(69, 59)
-        Me.Button15.TabIndex = 16
-        Me.Button15.Text = "0"
-        Me.Button15.UseVisualStyleBackColor = True
+        Me.btn0.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn0.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btn0.Location = New System.Drawing.Point(14, 414)
+        Me.btn0.Name = "btn0"
+        Me.btn0.Size = New System.Drawing.Size(69, 59)
+        Me.btn0.TabIndex = 16
+        Me.btn0.Text = "0"
+        Me.btn0.UseVisualStyleBackColor = True
         '
-        'Button16
+        'btnBorrar
         '
-        Me.Button16.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button16.Location = New System.Drawing.Point(11, 85)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(69, 59)
-        Me.Button16.TabIndex = 17
-        Me.Button16.Text = "C"
-        Me.Button16.UseVisualStyleBackColor = True
+        Me.btnBorrar.BackColor = System.Drawing.Color.LightCoral
+        Me.btnBorrar.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBorrar.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnBorrar.Location = New System.Drawing.Point(14, 115)
+        Me.btnBorrar.Name = "btnBorrar"
+        Me.btnBorrar.Size = New System.Drawing.Size(69, 59)
+        Me.btnBorrar.TabIndex = 17
+        Me.btnBorrar.Text = "C"
+        Me.btnBorrar.UseVisualStyleBackColor = False
         '
-        'Button17
+        'btnRaiz
         '
-        Me.Button17.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button17.Location = New System.Drawing.Point(86, 85)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(69, 59)
-        Me.Button17.TabIndex = 18
-        Me.Button17.Text = "R"
-        Me.Button17.UseVisualStyleBackColor = True
+        Me.btnRaiz.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRaiz.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnRaiz.Location = New System.Drawing.Point(89, 115)
+        Me.btnRaiz.Name = "btnRaiz"
+        Me.btnRaiz.Size = New System.Drawing.Size(69, 59)
+        Me.btnRaiz.TabIndex = 18
+        Me.btnRaiz.Text = "R"
+        Me.btnRaiz.UseVisualStyleBackColor = True
         '
-        'Button18
+        'btnCuadrado
         '
-        Me.Button18.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Button18.Location = New System.Drawing.Point(161, 85)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(69, 59)
-        Me.Button18.TabIndex = 19
-        Me.Button18.Text = "^"
-        Me.Button18.UseVisualStyleBackColor = True
+        Me.btnCuadrado.Font = New System.Drawing.Font("Bernard MT Condensed", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCuadrado.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.btnCuadrado.Location = New System.Drawing.Point(164, 115)
+        Me.btnCuadrado.Name = "btnCuadrado"
+        Me.btnCuadrado.Size = New System.Drawing.Size(69, 59)
+        Me.btnCuadrado.TabIndex = 19
+        Me.btnCuadrado.Text = "^"
+        Me.btnCuadrado.UseVisualStyleBackColor = True
+        '
+        'lblAux
+        '
+        Me.lblAux.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.lblAux.Font = New System.Drawing.Font("Bernard MT Condensed", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAux.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.lblAux.Location = New System.Drawing.Point(12, 9)
+        Me.lblAux.Name = "lblAux"
+        Me.lblAux.Size = New System.Drawing.Size(296, 33)
+        Me.lblAux.TabIndex = 20
+        Me.lblAux.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'frmPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
-        Me.ClientSize = New System.Drawing.Size(316, 448)
-        Me.Controls.Add(Me.Button18)
-        Me.Controls.Add(Me.Button17)
-        Me.Controls.Add(Me.Button16)
-        Me.Controls.Add(Me.Button15)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.btnuno)
+        Me.ClientSize = New System.Drawing.Size(316, 486)
+        Me.Controls.Add(Me.lblAux)
+        Me.Controls.Add(Me.btnCuadrado)
+        Me.Controls.Add(Me.btnRaiz)
+        Me.Controls.Add(Me.btnBorrar)
+        Me.Controls.Add(Me.btn0)
+        Me.Controls.Add(Me.txtbDisplay)
+        Me.Controls.Add(Me.btnDividir)
+        Me.Controls.Add(Me.btnSuma)
+        Me.Controls.Add(Me.btnRestar)
+        Me.Controls.Add(Me.btnMultiplicar)
+        Me.Controls.Add(Me.btnTotal)
+        Me.Controls.Add(Me.btnPunto)
+        Me.Controls.Add(Me.btn6)
+        Me.Controls.Add(Me.btn7)
+        Me.Controls.Add(Me.btn8)
+        Me.Controls.Add(Me.btn9)
+        Me.Controls.Add(Me.btn4)
+        Me.Controls.Add(Me.btn5)
+        Me.Controls.Add(Me.btn3)
+        Me.Controls.Add(Me.btn2)
+        Me.Controls.Add(Me.btn1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmPrincipal"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Calculadora"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents btnuno As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
-    Friend WithEvents Button18 As Button
+    Friend WithEvents btn1 As Button
+    Friend WithEvents btn2 As Button
+    Friend WithEvents btn3 As Button
+    Friend WithEvents btn9 As Button
+    Friend WithEvents btn4 As Button
+    Friend WithEvents btn5 As Button
+    Friend WithEvents btn6 As Button
+    Friend WithEvents btn7 As Button
+    Friend WithEvents btn8 As Button
+    Friend WithEvents btnDividir As Button
+    Friend WithEvents btnSuma As Button
+    Friend WithEvents btnRestar As Button
+    Friend WithEvents btnMultiplicar As Button
+    Friend WithEvents btnTotal As Button
+    Friend WithEvents btnPunto As Button
+    Friend WithEvents txtbDisplay As TextBox
+    Friend WithEvents btn0 As Button
+    Friend WithEvents btnBorrar As Button
+    Friend WithEvents btnRaiz As Button
+    Friend WithEvents btnCuadrado As Button
+    Friend WithEvents lblAux As Label
 End Class
